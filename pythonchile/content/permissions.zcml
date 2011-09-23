@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="pythonchile.content">
+
+    <!-- Define new permissions -->
+
+    <permission
+        id="pythonchile.AddJob"
+        title="PythonChile: Add Job"
+        />
+
+   
+</configure>

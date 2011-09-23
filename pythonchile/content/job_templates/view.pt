@@ -1,0 +1,33 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="pythonchile.content">
+<body>
+
+<metal:content-core fill-slot="content-core">
+    <metal:content-core define-macro="content-core">
+
+        <div class="company-logo"
+           tal:condition="exists:context/@@images/company_logo/thumb">
+            <img tal:replace="structure context/@@images/company_logo/thumb" />
+        </div>
+
+        <div tal:content="structure context/position/output" />
+        
+        <div tal:content="structure context/how_to_apply" />
+        <div tal:content="structure context/location" />
+
+        <h2 class="company">Empresa</h2>        
+        <div tal:content="structure context/company_name" />
+        <div tal:content="structure context/company_website" />
+        <div tal:content="structure context/email" />
+        
+
+    </metal:content-core>
+</metal:content-core>
+
+</body>
+</html>

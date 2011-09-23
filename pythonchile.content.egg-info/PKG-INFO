@@ -1,0 +1,27 @@
+Metadata-Version: 1.0
+Name: pythonchile.content
+Version: 1.0
+Summary: Content Types for PythonChile website
+Home-page: https://github.com/pythonchile
+Author: Alvaro Aguirre
+Author-email: aaguirre@kundart.com
+License: GPL
+Description: Introduction
+        ============
+        
+        
+        
+        This product may contain traces of nuts.
+        
+        Changelog
+        =========
+        
+        1.0dev (unreleased)
+        -------------------
+        
+        - Initial release
+        
+Keywords: python chile jobs companies
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Programming Language :: Python

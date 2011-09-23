@@ -1,0 +1,16 @@
+README.txt
+setup.cfg
+setup.py
+pythonchile/__init__.py
+pythonchile.content.egg-info/PKG-INFO
+pythonchile.content.egg-info/SOURCES.txt
+pythonchile.content.egg-info/dependency_links.txt
+pythonchile.content.egg-info/entry_points.txt
+pythonchile.content.egg-info/namespace_packages.txt
+pythonchile.content.egg-info/not-zip-safe
+pythonchile.content.egg-info/paster_plugins.txt
+pythonchile.content.egg-info/requires.txt
+pythonchile.content.egg-info/top_level.txt
+pythonchile/content/__init__.py
+pythonchile/content/job.py
+pythonchile/content/tests.py
